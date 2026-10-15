@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-sycamore",
+  "main": "src/index.json",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.40.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-simple-import-sort": "^13.0.0",
+    "eslint-config-prettier": "^9.1.0"
+  }
+}

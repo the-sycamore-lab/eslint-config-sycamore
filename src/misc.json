@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "max-lines": ["error"],
+    "max-lines-per-function": ["error"],
+    "max-statements": ["error"],
+    "max-depth": ["error"],
+    "max-nested-callbacks": ["error"],
+    "complexity": ["error"],
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      { "allowExpressions": true, "allowTypedFunctionExpressions": true }
+    ],
+    "@typescript-eslint/prefer-readonly": ["error"],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "varsIgnorePattern": "^_" }
+    ]
+  }
+}
