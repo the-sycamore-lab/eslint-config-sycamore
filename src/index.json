@@ -1,3 +1,0 @@
-{
-  "extends": ["./base.json", "./import.json", "./misc.json"]
-}
